@@ -9,20 +9,19 @@
 // 3 3 2 2 1 1
 // 3 2 1
 public class Q30 {
-    public static void main(String args[]){
-        int n=3;
-        pattern(n);
-         
-    }
-    public static void pattern(int n){
-        for(int i=1; i<=n; i++){
-            for(int j=n; j>=1; j--){
-                for(int k=i; k<=n; k++){
-                   System.out.print(j+" ");
-                }
-               
+   public static void main (String args[]){
+      int n = 3;
+      find(n);
+
+   }
+   public static void find(int n){
+    for(int i=1; i<=n; i++){
+        for(int j=n; j>=1; j--){
+            for(int k=i; k<=n; k++){
+                System.out.print(j+" ");
             }
-            System.out.println();
         }
+        System.out.println();
     }
+   }
 }

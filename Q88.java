@@ -1,6 +1,6 @@
-public class Q86 {
+public class Q88 {
     public static void main(String args[]) {
-        String names = "sdiblc22ss11dbud";
+        String names = "shiva";
         find(names);
       
     }
@@ -8,11 +8,11 @@ public class Q86 {
     public static void find(String names){
             int n = names.length();
             for(int i=0; i<n; i++){
-                if(Character.isDigit(names.charAt(i))){
-                        System.out.print(names.charAt(i));
+                for(int j=0; j<n-i; j++){
+                        System.out.print(names.charAt(j));
                 }
+                System.out.println();
             }
-            System.out.println();
            
 }
 }

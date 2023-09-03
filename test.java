@@ -1,27 +1,24 @@
+import java.util.*;
 
-   import java.util.*;
-   
-   public class test {
+public class test {
     public static void main(String args[]){
-    int arr [][] =      {{1,2,3,4},
-                         {5,6,7,8},
-                         {9,10,11,12},
-                         {13,14,15,16}};
+     
+     int n = 11;
+     int pow = 0;
+     int binNum =0;
+
+     while(n>0){
+      int rem = n%2;
+      binNum = binNum+(rem*(int)Math.pow(10,pow));
+      //  binNum = (binNum*10)+rem;
+
+      pow++;
+      n = n/2;
+     }
+     System.out.println(binNum);
+     
          
-       }
-
-       public static void spiralPrint(int arr[][]){
-           int startRow = 0;
-           int endRow = arr.length-1; 
-           int startcol = 0;
-           int endCOl =
-       }
-
-
-      }
+    }
     
-      
-        
-    
-    
+}
 

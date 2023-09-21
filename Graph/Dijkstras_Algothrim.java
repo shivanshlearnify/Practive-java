@@ -76,6 +76,7 @@ public class Dijkstras_Algothrim {
                 }
             }
         }
+        // shortest path of every vertex
         for(int i=0; i<graph.length; i++){
             System.out.print(dist[i]+" ");
         }

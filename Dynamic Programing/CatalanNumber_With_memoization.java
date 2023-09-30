@@ -16,7 +16,7 @@ public class CatalanNumber_With_memoization {
 
     }
     public static void main(String args[]){
-        int n=20;
+        int n=4;
         
 
         int dp[] = new int[n+1];

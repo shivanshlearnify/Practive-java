@@ -21,8 +21,9 @@ public class TargetSumSunbset {
                 }
             }
         }
+        print(dp);
+        return dp[n][sum];
         
-        return dp[n+1][sum+1];
     }
     public static void print(boolean dp[][]){
         for(int i=0; i<dp.length; i++){
@@ -37,5 +38,6 @@ public class TargetSumSunbset {
         int arr[] = {4,2,7,1,3};
         int sum = 10;
         System.out.println(targetSum(arr, sum));
+        
     }
 }

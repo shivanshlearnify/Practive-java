@@ -34,7 +34,7 @@ public class CreatingTrie {
             }
             curr = curr.children[idx];
         }
-        return curr.eow == true;
+        return curr.eow;
     }
 
     

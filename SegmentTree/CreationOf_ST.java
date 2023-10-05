@@ -26,7 +26,7 @@ public class CreationOf_ST {
         buildST(arr, 0, 0, n - 1);
 
         for(int i=0; i<tree.length; i++){
-            System.out.print(tree[i]+" ");
+            System.out.print(tree[i]+" `");
         }
     }
 }
